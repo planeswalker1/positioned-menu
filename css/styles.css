@@ -110,3 +110,19 @@ ul.features-menu li {
 ul.features-menu li:last-of-type {
   border-bottom: none;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  ul.features-menu li {
+    padding: 0 10px 10px 20px;
+  }
+}
