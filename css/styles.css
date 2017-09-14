@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #5D6063;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  height: 1200px;
+}
+
+h1 , span {
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 2.5em;
+}
+
+
+header {
+  background-color: #00BCD4;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+
+  padding: 1em;
+  width: 100%;
+}
