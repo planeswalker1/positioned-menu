@@ -70,6 +70,10 @@ a:hover {
   text-decoration: underline;
 }
 
+li.dropdown {
+  position: relative;
+}
+
 ul.features-menu {
   background-color: rgba(244, 67, 54, 0.8);
   border-radius: 5px;
