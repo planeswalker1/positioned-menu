@@ -33,3 +33,39 @@ header {
   padding: 1em;
   width: 100%;
 }
+
+nav {
+  width: 50%;
+}
+
+nav > ul.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  list-style-type: none;
+}
+
+ul.menu > li {
+  padding: 5px;
+}
+
+/*old way*/
+/*.menu > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}*/
+
+a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
