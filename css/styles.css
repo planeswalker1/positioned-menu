@@ -74,7 +74,17 @@ li.dropdown {
   position: relative;
 }
 
+li.dropdown > span {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
 ul.features-menu {
+  display: none;
+}
+
+li.dropdown:hover ul.features-menu {
   background-color: rgba(244, 67, 54, 0.8);
   border-radius: 5px;
 
@@ -86,6 +96,8 @@ ul.features-menu {
   position: absolute;
   top: 0;
   left: -20px;
+
+  z-index: 1;
 }
 
 ul.features-menu li {
